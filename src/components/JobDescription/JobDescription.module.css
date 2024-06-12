@@ -1,0 +1,125 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:100px;
+    border-radius:0 0 62px 55px;
+    background-color: #ED5353;
+    padding:30px 60px;
+}
+.heading{
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 43.21px;
+    text-align: center;
+    color: white;
+}
+.btn{
+    display: flex;
+    gap:20px;
+}
+
+.btn button{
+    width: 113px;
+    height: 46px;
+    border-radius: 7px;
+    outline: none;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33.13px;
+    text-align: center;
+}
+.login{
+  background-color:  #ED5353;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+}
+.register{
+    color: #ED5353;
+    border: 2px solid #ED5353;
+}
+.body{
+    background-color:#FFEEEE;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    background-color: white;
+    width:70vw;
+    height:700px;
+    margin: 0 auto;
+    padding:20px;
+}
+.jobtype{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29.16px;
+    color:#999999;
+}
+.title{
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.loc{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color:#ED5353;
+}
+.sal_dur{
+    display:flex;
+    gap:20px;
+    margin:20px 0;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.company p{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40.69px;
+}
+.company div{
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    color:#595959;
+}
+.skill{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 20.69px;
+}
+.edit{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    outline: none;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    background-color:  #ED5353;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    position: absolute;
+    top:120px;
+    right:250px;
+}

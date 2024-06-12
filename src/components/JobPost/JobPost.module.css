@@ -1,0 +1,166 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.form_elements {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+.header h2 {
+  font-family: DM Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 57.61px;
+}
+.header p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30.24px;
+  color: #525252;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input[type="text"],
+.form input[type="email"] {
+  width: 620px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #c2c2c2;
+  padding: 10px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28.8px;
+  margin: 7px 0;
+}
+.but{
+    display: flex;
+    gap:10px;
+    justify-content: end;
+}
+.form button[type='submit'] {
+  width: 146.79px;
+  height: 42.66px;
+  border-radius: 6px;
+  background-color: #ed5353;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 18.08px;
+  font-weight: 500;
+  line-height: 21.18px;
+  text-align: left;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 5px 0;
+  float: right;
+  text-align: center;
+  
+}
+.form button{
+  width: 146.79px;
+  height: 42.66px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 18.08px;
+  font-weight: 500;
+  line-height: 21.18px;
+  text-align: left;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 5px 0;
+  float: right;
+  text-align: center;
+}
+.para {
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.para span {
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 30px;
+  text-decoration: underline;
+}
+.img {
+  height: 99vh;
+  width: 600px;
+}
+.label {
+  display: flex;
+  align-items: center;
+}
+.label p {
+  width: 174px;
+  height: 30px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.input {
+  width: 620px;
+  border-radius: 6px;
+  padding: 0.5em 0.2em;
+  height: 1.1rem;
+  color: #7b7b7b;
+  border: 2px solid #c2c2c2;
+  background-color: #ffffff;
+  margin: 5px 0;
+}
+
+.select {
+  border-radius: 6px;
+  padding: 0em 0.2em;
+  height: 2rem;
+  border: 2px solid #c2c2c2;
+  color: #adadad;
+  background-color: #ffffff;
+}
+
+.selectGroup {
+  font-size: 1rem;
+  margin: 1rem 0;
+  display: flex;
+}
+
+.removeSkill{
+  display:flex;
+  gap:5px;
+  margin-left:22%;
+}
+.removeSkill div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: pink;
+  width: 70px;
+  height: 30px;
+  border-radius:5px;
+  gap:10px;
+  padding: 10px;
+}
+.removeSkill span{
+  font-size: 14px;
+  background-color: #ed5353;
+}
+.removeSkill p{
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+ 
+ 
+}
